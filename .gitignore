@@ -1,19 +1,8 @@
 # Eclipse
 .classpath
 .project
-.springBeans
 .settings/
-.idea
-target/
 bin/
-out/
-*.iml
-# JRebel
-rebel.xml
 
-# Guard Livereload
-Gemfile*
-Guardfile
 
-# Amateras Class Diagram - 아직 개인 학습 용도로 사용함
-/*.ucls
+

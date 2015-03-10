@@ -1,6 +1,6 @@
 package lecture.week2;
 
-public class operationTest {
+public class OperationTest {
 	public static void main(String[] args) {
 
 	}

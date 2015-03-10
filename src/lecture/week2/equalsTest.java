@@ -1,11 +1,11 @@
 package lecture.week2;
 
-public class equalsTest {
+public class EqualsTest {
 	public static void main(String[] args) {
 		
 		//equalsAndSign();
 		
-		//correctEquals();
+		//useStrEquals();
 	}
 	
 	public static void equalsAndSign(){
@@ -17,7 +17,7 @@ public class equalsTest {
 		System.out.println(str1 == str3);
 	}
 	
-	public static void correctEquals(){
+	public static void useStrEquals(){
 		
 		String result = "";		
 		//String result = null;
