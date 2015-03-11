@@ -10,67 +10,67 @@ public class IfAndSwitch {
 		int age = 25;
 		String url;
 		
-		if(age > 19){
-			url = "19¼¼ ÀÌ»ó.com";
+		if(age >= 19){
+			url = "19ì„¸ì´ìƒ.com";
 		}else{
-			url = "19¼¼ ¹Ì¸¸.com";
+			url = "19ì„¸ë¯¸ë§Œ.com";
 		}
 	
 		
 		
-//		url = (age > 19)? "19¼¼ ÀÌ»ó.com" : "19¼¼ ¹Ì¸¸.com";
+//		url = (age > 19)? "19ì„¸ì´ìƒ.com" : "19ì„¸ì´ìƒ.com";
 	}
 	
-	//´ÙÀ½ÀÇ °á°ú°ªÀº? ¹«¾ùÀÌ Àß¸øµÇ¾ú³ª¿ä?
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½? ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß¸ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½ï¿½?
 	public static void useSwitch1(){
 		
 		int num = 1;
 		
 		switch(num){
 		case 1:
-			System.out.println("1 ÀÔ´Ï´Ù.");
+			System.out.println("1.");
 		
 		case 2:
-			System.out.println("2 ÀÔ´Ï´Ù.");
+			System.out.println("2.");
 			
 		case 3:
-			System.out.println("3 ÀÔ´Ï´Ù.");
+			System.out.println("3.");
 		
 		case 4:
-			System.out.println("4 ÀÔ´Ï´Ù.");
+			System.out.println("4.");
 			
 		case 5:
-			System.out.println("5 ÀÔ´Ï´Ù.");
+			System.out.println("5.");
 		
 		default:
-			System.out.println("1~5°¡ ¾Æ´Ñ ¼ıÀÚÀÔ´Ï´Ù.");
+			System.out.println("1~5.");
 	
 		}
 	}
 	
-	//´ÙÀ½ÀÇ ¹æ½ÄÀº °¡´ÉÇÑ°¡¿ä?
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ°ï¿½ï¿½ï¿½?
 	public static void useSwitch2(){
 		
-		String position = "°úÀå";
+		String position = "ë¶€ì¥";
 		
 		switch(position){
-		case "ºÎÀå":
-			System.out.println("700¸¸¿ø");
+		case "ë¶€ì¥":
+			System.out.println("700");
 			break;
-		case "Â÷Àå":
-			System.out.println("600¸¸¿ø ");
+		case "ì°¨ì¥":
+			System.out.println("600");
 			break;
-		case "°úÀå":
-			System.out.println("500¸¸¿ø");
+		case "ê³¼ì¥":
+			System.out.println("500");
 			break;
-		case "´ë¸®":
-			System.out.println("400¸¸¿ø");
+		case "ëŒ€ë¦¬":
+			System.out.println("400");
 			break;
-		case "ÁÖÀÓ":
-			System.out.println("300¸¸¿ø");
+		case "ì£¼ì„":
+			System.out.println("300");
 			break;
 		default:
-			System.out.println("200¸¸¿ø");
+			System.out.println("200");
 			break;
 		}
 	}	

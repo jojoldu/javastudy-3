@@ -11,15 +11,15 @@ public class Test3 {
 	
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("1¹øÂ° ¹è¿­À» ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("1ë²ˆì§¸ ë°°ì—´ì„ ì…ë ¥í•˜ì„¸ìš”");
 		String[] inputs1 = sc.nextLine().split(" ");
 		int[] aArr = strArr2IntArr(inputs1);
 		
-		System.out.println("2¹øÂ° ¹è¿­À» ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("2ë²ˆì§¸ ë°°ì—´ì„ ì…ë ¥í•˜ì„¸ìš”");
 		String[] inputs2 = sc.nextLine().split(" ");
 		int[] bArr = strArr2IntArr(inputs2);	
 		
-		System.out.println("Á¤·Ä¹æ½ÄÀ» ¼±ÅÃÇØÁÖ¼¼¿ä. \n¿À¸§Â÷¼ø:asc, ³»¸²Â÷¼ø:desc");
+		System.out.println("ì •ë ¬ë°©ì‹ì„ ì„ íƒí•˜ì„¸ìš”. \nì˜¤ë¦„ì°¨ìˆœ:asc, ë‚´ë¦¼ì°¨ìˆœ:desc");
 		String sort = sc.nextLine();
 		compare = ("asc".equals(sort))? 1 : -1;
 		

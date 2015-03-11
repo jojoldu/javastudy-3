@@ -3,29 +3,30 @@ package lecture.week2;
 public class EqualsTest {
 	public static void main(String[] args) {
 		
-		//equalsAndSign();
+		equalsAndSign();
 		
-		//useStrEquals();
+		useStrEquals();
 	}
 	
 	public static void equalsAndSign(){
-		String str1 = "ÀÌµ¿¿í";
-		String str2 = "ÀÌµ¿¿í";
-		String str3 = new String("ÀÌµ¿¿í");
+		String str1 = "jojoldu";
+		String str2 = "jojoldu";
+		String str3 = new String("jojoldu");
 		
 		System.out.println(str1 == str2);
 		System.out.println(str1 == str3);
 	}
 	
+	//ì˜¬ë°”ë¥¸ equalsì˜ ì‚¬ìš©ë²•ì€?
 	public static void useStrEquals(){
 		
 		String result = "";		
 		//String result = null;
 		
 		if(result.equals("")){
-			System.out.println("ÇØ´ç»çÇ×ÀÌ ¾ø½À´Ï´Ù.");
+			System.out.println("ë¹ˆ ë¬¸ìì—´ì…ë‹ˆë‹¤.");
 		}else{
-			System.out.println("Á¤º¸°¡ ÀÖ½À´Ï´Ù.");
+			System.out.println("ë°ì´í„°ê°€ ìˆìŠµë‹ˆë‹¤.");
 		}
 	}
 }

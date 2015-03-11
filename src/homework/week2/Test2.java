@@ -3,7 +3,7 @@ package homework.week2;
 import java.util.Scanner;
 
 /**
- * ´ŞÆØÀÌ ¹è¿­Ãâ·Â
+ * ë‹¬íŒ½ì¼ ë°°ì—´ 
  * @author dwlee
  *
  */
@@ -14,7 +14,7 @@ public class Test2 {
 		int num,n,i,j,k;
 
 		Scanner input = new Scanner(System.in);
-		System.out.print("Å©±â¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("í¬ê¸°ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		num=input.nextInt();
 
 		int array[][]= new int[num][num];

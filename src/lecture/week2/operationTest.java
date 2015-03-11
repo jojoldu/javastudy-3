@@ -2,7 +2,7 @@ package lecture.week2;
 
 public class OperationTest {
 	public static void main(String[] args) {
-
+		increase();
 	}
 	
 	public static void increase(){
@@ -11,7 +11,7 @@ public class OperationTest {
 		for(i=0;i<100;i++){
 			
 		}
-		System.out.println("iÀÇ °á°ú´Â : "+i);
+		System.out.println("ê²°ê³¼ëŠ” : "+i);
 	}
 	
 	

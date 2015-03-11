@@ -46,7 +46,7 @@ public class ForTest {
 			
 			sum+=i;
 		}
-		System.out.println("1¹ø ¸Þ¼ÒµåÀÇ ÃÑ ÇÕÀº : "+sum);
+		System.out.println("1ë²ˆ ê²°ê³¼ : "+sum);
 	}
 	
 	
@@ -62,6 +62,6 @@ public class ForTest {
 				sum+=i;
 			}
 		}
-		System.out.println("2¹ø ¸Þ¼ÒµåÀÇ ÃÑ ÇÕÀº : "+sum);
+		System.out.println("2ë²ˆ ê²°ê³¼ : "+sum);
 	}
 }

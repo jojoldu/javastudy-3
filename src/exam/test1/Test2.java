@@ -6,9 +6,9 @@ public class Test2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä:");
+		System.out.println("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”:");
 		int n = sc.nextInt();
-		System.out.println("\n"+ n +"!ÀÇ °á°ú´Â : "+fact(n));
+		System.out.println("\n"+ n +"! ê²°ê³¼ëŠ” : "+fact(n));
 		
 	}
 	

@@ -3,7 +3,7 @@ package homework.week2;
 import java.util.Scanner;
 
 /**
- * ÀÔ·Â¹ŞÀº ¼ıÀÚ ÀÚ·á±¸Á¶, ´Ù¸¥ ¸Ş¼Òµå »ç¿ëÇÏÁö ¾Ê°í ¿ª¼ø Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥
+ * ì…ë ¥ë°›ì€ ìˆ«ìë¥¼ ë³„ë„ì˜ ìë£Œêµ¬ì¡°ì™€ ë¼ì´ë¸ŒëŸ¬ë¦¬ ë„ì›€ì—†ì´ ì—­ìˆœìœ¼ë¡œ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨
  * @author dwlee
  *
  */
@@ -11,7 +11,7 @@ public class Test4 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		System.out.println("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 		reverseNum(sc.nextInt());
 	}
 	
@@ -31,6 +31,6 @@ public class Test4 {
 			num /= 10;
 		}
 
-		System.out.println("°á°ú´Â : " + sum);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ : " + sum);
 	}
 }

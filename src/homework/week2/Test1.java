@@ -11,8 +11,8 @@ public class Test1 {
 		Scanner sc = new Scanner(System.in);
 		
 		while(true){
-			System.out.println("¼ıÀÚÀÇ ¹üÀ§¿Í ÃßÃâÇÒ ¼ıÀÚ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä");
-			System.out.println("0À» ÀÔ·ÂÇÏ¸é ÇÁ·Î±×·¥Àº Á¾·áÇÕ´Ï´Ù.");
+			System.out.println("ìˆ«ìì˜ ë²”ìœ„ì™€ ì¶”ì¶œí•  ìˆ«ìë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.");
+			System.out.println("0ì„ ì…ë ¥í•˜ë©´ í”„ë¡œê·¸ë¨ì€ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 			String[] inputs = sc.nextLine().split(" ");
 
 			inputCount = Integer.parseInt(inputs[0]);
@@ -41,7 +41,7 @@ public class Test1 {
 			arr[randomIndex] = temp;
 		}
 		
-		System.out.println("·£´ıÇÑ ¼ıÀÚ " + outputCount + "°³´Â");
+		System.out.println("ëœë¤í•œ ìˆ«ì " + outputCount + "ê°œëŠ”");
 		for(int i=0;i<outputCount;i++){
 			System.out.print(arr[i]+" ");
 		}
