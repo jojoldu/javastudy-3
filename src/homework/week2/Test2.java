@@ -2,6 +2,11 @@ package homework.week2;
 
 import java.util.Scanner;
 
+/**
+ * 달팽이 배열출력
+ * @author dwlee
+ *
+ */
 public class Test2 {
 
 	public static void main(String[] args){
