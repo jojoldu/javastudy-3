@@ -13,6 +13,4 @@ public class OperationTest {
 		}
 		System.out.println("결과는 : "+i);
 	}
-	
-	
 }
