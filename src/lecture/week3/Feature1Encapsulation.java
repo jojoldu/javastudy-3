@@ -10,9 +10,9 @@ public class Feature1Encapsulation {
 		/*
 		 *  e로 사용가능한 변수들은 어떤 것들이 있는가?
 		 */
-		System.out.println(e.publicVar);
-		System.out.println(e.defaultVar);
-		System.out.println(e.protectedVar);
-		System.out.println(e.privateVar);
+//		System.out.println(e.publicVar);
+//		System.out.println(e.defaultVar);
+//		System.out.println(e.protectedVar);
+//		System.out.println(e.privateVar);
 	}
 }
