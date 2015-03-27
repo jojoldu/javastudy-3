@@ -30,7 +30,7 @@ public class BookManager {
 			Book book = bookList[i];
 			totalPrice +=book.getPrice();
 		}
-		System.out.println("��ü å ������ �� : "+totalPrice);
+		System.out.println("총 가격은 : "+totalPrice);
 	}
 	
 }

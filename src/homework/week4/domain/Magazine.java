@@ -11,6 +11,6 @@ public class Magazine extends Book {
 	}
 
 	public void addAppendix(){
-		System.out.println("( �̹�ȣ ��å �η��� ������ �Դϴ�. )");
+		System.out.println("이번호 별책 부록은 에센스 입니다 ");
 	}
 }
