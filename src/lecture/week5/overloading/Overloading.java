@@ -1,11 +1,11 @@
-package lecture.week4;
+package lecture.week5.overloading;
 
 /**
  * 메소드 오버로딩
  * @author dwlee
  *
  */
-public class MethodOverloading {
+public class Overloading {
 	public static void main(String[] args) {
 		
 		//기본적인 메소드 오버로딩
@@ -40,6 +40,7 @@ public class MethodOverloading {
 		System.out.println("숫자 넣어야죠??" + str);
 	}
 	
+	////////////////////////////////////////////////////////////////
 	
 	public static void printDouble(double a, double b){
 		System.out.println("double 2개");
