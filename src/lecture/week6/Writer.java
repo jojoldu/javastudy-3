@@ -4,8 +4,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-import lecture.week6.interfaces.LineWriter;
-
 public class Writer {
 
 	public void write(String fileName){
