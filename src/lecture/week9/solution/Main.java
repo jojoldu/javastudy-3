@@ -1,6 +1,7 @@
 package lecture.week9.solution;
 
 import java.util.Iterator;
+import lecture.week9.domain.Character;
 
 public class Main {
 	public static void main(String[] args) {
@@ -12,6 +13,7 @@ public class Main {
 		Iterator i2 = ca.getIterator();
 
 		showList(i);
+		System.out.println("############################");
 		showList(i2);
 
 	}
