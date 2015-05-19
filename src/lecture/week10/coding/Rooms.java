@@ -29,22 +29,22 @@ public class Rooms {
 			System.out.println("성공");
 			return true;
 		}
-		else if(width > 0 && newRooms[height][width-1] && dfs(height, width-1)){
+		if(width > 0 && newRooms[height][width-1] && dfs(height, width-1)){
 			return true;
 		}
-		else if(width < MAX_W && newRooms[height][width+1] && dfs(height, width+1)){
+		if(width < MAX_W && newRooms[height][width+1] && dfs(height, width+1)){
 			return true;
 		}
-		else if(height > 0 && newRooms[height-1][width] && dfs(height-1, width)){
+		if(height > 0 && newRooms[height-1][width] && dfs(height-1, width)){
 			return true;
 		}
-		else if(height < MAX_H && newRooms[height+1][width] && dfs(height+1, width)){
+		if(height < MAX_H && newRooms[height+1][width] && dfs(height+1, width)){
 			return true;
 		}
-		else{
-			newRooms[height][width] = true;
-			return false;
-		}
+
+		newRooms[height][width] = true;
+		return false;
+	
 	}
 	
 	
